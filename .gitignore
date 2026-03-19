@@ -4,3 +4,4 @@
 /__py_chache__/
 *.csv
 .env
+.DS_Store
