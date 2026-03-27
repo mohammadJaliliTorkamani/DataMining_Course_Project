@@ -87,7 +87,7 @@ def get_season(month):
     else:
         return 'Fall'
 
-
+#NOTE: it is not calculating this vaue correctly and that is why we havr oscar_date_updater.py
 def days_to_nearest_oscar(release_date):
     if pd.isna(release_date): return None
     year = release_date.year
