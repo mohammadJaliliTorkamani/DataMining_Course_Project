@@ -1,6 +1,8 @@
 import pandas as pd
 from datetime import datetime
 
+
+#This script fixes the date-association bug i the main.py, therefore, it needs to be executed after the main.py script.
 # ---- Oscars actual dates ----
 oscars_dates = {
     1929: datetime(1929, 5, 16), 1930: datetime(1930, 4, 3), 1931: datetime(1930, 11, 5),
